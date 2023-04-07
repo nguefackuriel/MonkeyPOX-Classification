@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ai.passio.platformsdksandboxapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera" />
+11-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:9:5-60
+11-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:9:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:10:5-70
+12-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:10:19-67
+13
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:12:5-79
+14-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:12:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:13:5-65
+15-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:13:22-62
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:14:5-67
+16-->[ai.passio.passiosdk:platformsdk:2.2.12] /Users/uriel/.gradle/caches/transforms-3/8afca2e2f2864dc5962afe397f2c7910/transformed/platformsdk-2.2.12/AndroidManifest.xml:14:22-64
+17
+18    <queries>
+18-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/uriel/.gradle/caches/transforms-3/2c31e77c5b60a9e78626459c6aee8205/transformed/camera-extensions-1.0.0-alpha32/AndroidManifest.xml:24:5-28:15
+19        <intent>
+19-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/uriel/.gradle/caches/transforms-3/2c31e77c5b60a9e78626459c6aee8205/transformed/camera-extensions-1.0.0-alpha32/AndroidManifest.xml:25:9-27:18
+20            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+20-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/uriel/.gradle/caches/transforms-3/2c31e77c5b60a9e78626459c6aee8205/transformed/camera-extensions-1.0.0-alpha32/AndroidManifest.xml:26:13-86
+20-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/uriel/.gradle/caches/transforms-3/2c31e77c5b60a9e78626459c6aee8205/transformed/camera-extensions-1.0.0-alpha32/AndroidManifest.xml:26:21-83
+21        </intent>
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.9.0] /Users/uriel/.gradle/caches/transforms-3/01ff7b727cf930e5a25944ebe3842041/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+25        android:name="ai.passio.platformsdksandboxapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.9.0] /Users/uriel/.gradle/caches/transforms-3/01ff7b727cf930e5a25944ebe3842041/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.9.0] /Users/uriel/.gradle/caches/transforms-3/01ff7b727cf930e5a25944ebe3842041/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="ai.passio.platformsdksandboxapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.9.0] /Users/uriel/.gradle/caches/transforms-3/01ff7b727cf930e5a25944ebe3842041/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.9.0] /Users/uriel/.gradle/caches/transforms-3/01ff7b727cf930e5a25944ebe3842041/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:6:5-25:19
+31        android:allowBackup="true"
+31-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:7:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.9.0] /Users/uriel/.gradle/caches/transforms-3/01ff7b727cf930e5a25944ebe3842041/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:8:9-65
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:9:9-54
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:10:9-43
+38        android:label="@string/app_name"
+38-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:11:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:12:9-54
+40        android:supportsRtl="true"
+40-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:13:9-35
+41        android:theme="@style/Theme.PlatformSDKSandboxApp" >
+41-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:14:9-59
+42        <activity
+42-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:16:9-24:20
+43            android:name="ai.passio.platformsdksandboxapp.MainActivity"
+43-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:17:13-41
+44            android:exported="true" >
+44-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:18:13-36
+45            <intent-filter>
+45-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:19:13-23:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:20:17-69
+46-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:20:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:22:17-77
+48-->/Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/main/AndroidManifest.xml:22:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/uriel/.gradle/caches/transforms-3/db709a07cd868a548070df67f943ad99/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/uriel/.gradle/caches/transforms-3/db709a07cd868a548070df67f943ad99/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+54            android:authorities="ai.passio.platformsdksandboxapp.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/uriel/.gradle/caches/transforms-3/db709a07cd868a548070df67f943ad99/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/uriel/.gradle/caches/transforms-3/db709a07cd868a548070df67f943ad99/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/uriel/.gradle/caches/transforms-3/db709a07cd868a548070df67f943ad99/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/uriel/.gradle/caches/transforms-3/db709a07cd868a548070df67f943ad99/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/uriel/.gradle/caches/transforms-3/db709a07cd868a548070df67f943ad99/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/uriel/.gradle/caches/transforms-3/157d56dbf310011cb7683efa4341a216/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/uriel/.gradle/caches/transforms-3/157d56dbf310011cb7683efa4341a216/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/uriel/.gradle/caches/transforms-3/157d56dbf310011cb7683efa4341a216/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+62        </provider>
+63
+64        <uses-library
+64-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/uriel/.gradle/caches/transforms-3/2c31e77c5b60a9e78626459c6aee8205/transformed/camera-extensions-1.0.0-alpha32/AndroidManifest.xml:31:9-33:40
+65            android:name="androidx.camera.extensions.impl"
+65-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/uriel/.gradle/caches/transforms-3/2c31e77c5b60a9e78626459c6aee8205/transformed/camera-extensions-1.0.0-alpha32/AndroidManifest.xml:32:13-59
+66            android:required="false" />
+66-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/uriel/.gradle/caches/transforms-3/2c31e77c5b60a9e78626459c6aee8205/transformed/camera-extensions-1.0.0-alpha32/AndroidManifest.xml:33:13-37
+67
+68        <service
+68-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/uriel/.gradle/caches/transforms-3/38f4c46e6583e21dc0294e12d4a9e67d/transformed/camera-camera2-1.1.0-alpha12/AndroidManifest.xml:26:9-35:19
+69            android:name="androidx.camera.core.impl.MetadataHolderService"
+69-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/uriel/.gradle/caches/transforms-3/38f4c46e6583e21dc0294e12d4a9e67d/transformed/camera-camera2-1.1.0-alpha12/AndroidManifest.xml:27:13-75
+70            android:enabled="false"
+70-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/uriel/.gradle/caches/transforms-3/38f4c46e6583e21dc0294e12d4a9e67d/transformed/camera-camera2-1.1.0-alpha12/AndroidManifest.xml:28:13-36
+71            android:exported="false" >
+71-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/uriel/.gradle/caches/transforms-3/38f4c46e6583e21dc0294e12d4a9e67d/transformed/camera-camera2-1.1.0-alpha12/AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/uriel/.gradle/caches/transforms-3/38f4c46e6583e21dc0294e12d4a9e67d/transformed/camera-camera2-1.1.0-alpha12/AndroidManifest.xml:32:13-34:89
+73                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+73-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/uriel/.gradle/caches/transforms-3/38f4c46e6583e21dc0294e12d4a9e67d/transformed/camera-camera2-1.1.0-alpha12/AndroidManifest.xml:33:17-103
+74                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+74-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/uriel/.gradle/caches/transforms-3/38f4c46e6583e21dc0294e12d4a9e67d/transformed/camera-camera2-1.1.0-alpha12/AndroidManifest.xml:34:17-86
+75        </service>
+76    </application>
+77
+78</manifest>

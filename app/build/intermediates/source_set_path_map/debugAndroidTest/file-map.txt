@@ -1,0 +1,7 @@
+ai.passio.platformsdksandboxapp.test.app-androidTest-0 /Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/build/generated/res/resValues/androidTest/debug
+ai.passio.platformsdksandboxapp.test.app-androidTest-1 /Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/build/generated/res/rs/androidTest/debug
+ai.passio.platformsdksandboxapp.test.app-mergeDebugAndroidTestResources-2 /Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+ai.passio.platformsdksandboxapp.test.app-mergeDebugAndroidTestResources-3 /Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+ai.passio.platformsdksandboxapp.test.app-merged_res-4 /Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/build/intermediates/merged_res/debugAndroidTest
+ai.passio.platformsdksandboxapp.test.app-androidTest-5 /Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/androidTest/res
+ai.passio.platformsdksandboxapp.test.app-androidTestDebug-6 /Users/uriel/Downloads/Passio-Platform-Android-SDK-Monkeypox/RealApp_Monkeypox/app/src/androidTestDebug/res
