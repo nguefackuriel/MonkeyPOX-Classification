@@ -7,3 +7,5 @@ and we have obtained an accuracy of 87% on the training set and 96% on the test 
 
 You can download the app in the folder app -> build -> outputs -> apk -> debug
 
+You can test the algorithm using some of the images uploaded in this project
+
